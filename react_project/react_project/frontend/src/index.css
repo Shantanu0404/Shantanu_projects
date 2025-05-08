@@ -1,0 +1,11 @@
+button:hover {
+  border-color: #646cff;
+  transform: scale(1.05); /* Subtle scale effect */
+  transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+  transform: scale(1.05); /* Add the same scale effect for focus state */
+}
